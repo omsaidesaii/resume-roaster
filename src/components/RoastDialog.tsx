@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import { RefreshCw, Copy } from 'lucide-react';
-import { searchGif, FALLBACK_GIFS } from '../services/tenorService';
+import { searchGif, FALLBACK_GIFS } from '../services/tenorService.ts';
 
 interface RoastDisplayProps {
   roast: string;

@@ -1,7 +1,7 @@
 export const GEMINI_MODEL = "gemini-2.5-flash";
 
-// Tenor API Key - Add your own key here
-export const TENOR_API_KEY = process.env.TENOR_API_KEY || '';
+// Tenor API Key - Add your own key here (must be prefixed with VITE_ in .env file)
+export const TENOR_API_KEY = import.meta.env.VITE_TENOR_API_KEY || '';
 
 export const SYSTEM_INSTRUCTION = `
 You are a savage, funny Indian stand-up comedian (like Bassi, Zakir Khan, or Biswa). 

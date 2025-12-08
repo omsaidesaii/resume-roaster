@@ -1,4 +1,4 @@
-import { TENOR_API_KEY } from "../constants";
+import { TENOR_API_KEY } from "../constants.ts";
 
 // Cache for storing fetched GIFs to avoid redundant API calls
 const gifCache: Record<string, string> = {};

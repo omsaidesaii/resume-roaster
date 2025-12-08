@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { LOADING_MESSAGES } from '../constants';
+import { LOADING_MESSAGES } from '../constants.ts';
 import { Loader2 } from 'lucide-react';
 
 const LoadingState: React.FC = () => {

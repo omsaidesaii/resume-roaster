@@ -1,9 +1,9 @@
 import { GoogleGenAI } from "@google/genai";
-import { GEMINI_MODEL, SYSTEM_INSTRUCTION } from "../constants";
-import { ProcessedFile } from "./fileService";
+import { GEMINI_MODEL, SYSTEM_INSTRUCTION } from "../constants.ts";
+import type { ProcessedFile } from "./fileService";
 
 // Initialize the API client
-const apiKey = import.meta.env.VITE_GEMINI_API_KEY || process.env.GEMINI_API_KEY || process.env.API_KEY;
+const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
 if (!apiKey) {
   console.error("API_KEY is missing from environment variables");
 }
@@ -11,7 +11,7 @@ if (!apiKey) {
 const ai = new GoogleGenAI({ apiKey: apiKey || 'dummy-key-for-types' });
 
 export const generateRoast = async (fileData: ProcessedFile): Promise<string> => {
-  const runtimeApiKey = import.meta.env.VITE_GEMINI_API_KEY || process.env.GEMINI_API_KEY || process.env.API_KEY;
+  const runtimeApiKey = import.meta.env.VITE_GEMINI_API_KEY;
   if (!runtimeApiKey) throw new Error("API Key not found. Please set VITE_GEMINI_API_KEY in your .env file");
 
   try {
