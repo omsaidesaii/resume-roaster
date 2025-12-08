@@ -37,13 +37,13 @@ const Navbar: React.FC = () => {
         </div>
 
         <div className="flex items-center gap-4">
-          <a href="#" className="text-gray-400 hover:text-white transition-colors">
+          <a href="https://github.com/omsaidesaii" className="text-gray-400 hover:text-white transition-colors">
             <Github className="w-5 h-5" />
           </a>
-          <a href="#" className="text-gray-400 hover:text-white transition-colors">
+          <a href="https://x.com/omsaidesai" className="text-gray-400 hover:text-white transition-colors">
             <Twitter className="w-5 h-5" />
           </a>
-          <a href="#" className="text-gray-400 hover:text-white transition-colors">
+          <a href="https://www.linkedin.com/in/omsai-desai" className="text-gray-400 hover:text-white transition-colors">
             <Linkedin className="w-5 h-5" />
           </a>
         </div>
