@@ -13,7 +13,7 @@ const Header: React.FC = () => {
         <div className="flex items-center justify-center gap-3 mb-4">
           <h1 className="text-5xl md:text-7xl font-extrabold tracking-tighter uppercase italic leading-tight">
             <span className="text-white drop-shadow-2xl">Resume</span>
-            <span className="fire-text ml-3 drop-shadow-red">Roaster </span>
+            <span className="fire-text ml-3 drop-shadow-red">Roaster.</span>
           </h1>
         </div>
 
