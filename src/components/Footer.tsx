@@ -33,11 +33,8 @@ const Footer: React.FC = () => {
         
         <div className="border-t border-gray-900 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-gray-600 text-sm">
-            © {new Date().getFullYear()} Resume Roaster. Made with 💔 by 
-            <span>
-              <a href="https://www.linkedin.com/in/omsai-desai" className="hover:text-orange-400 transition-colors">
-                Omsai Desai
-              </a>
+            © {new Date().getFullYear()} Resume Roaster. Made with 💔 by <span>
+              <a href="https://www.linkedin.com/in/omsai-desai" className="hover:text-orange-400 transition-colors"> Omsai Desai</a>
             </span>
            
           </p>
