@@ -38,10 +38,13 @@ const Footer: React.FC = () => {
             </span>
            
           </p>
-          <div className="flex gap-4">
-            <span className="w-2 h-2 rounded-full bg-green-500"></span>
-            <span className="text-gray-500 text-xs">System Status: Online & Savage</span>
-          </div>
+          <div className="flex items-center gap-2">
+  <span className="w-2 h-2 rounded-full bg-green-500"></span>
+  <span className="text-gray-500 text-xs">
+    System Status: Online & Savage
+  </span>
+</div>
+
         </div>
       </div>
     </footer>
