@@ -15,9 +15,9 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-white font-bold mb-4">Product</h4>
             <ul className="space-y-2 text-sm text-gray-500">
-              <li><a href="#" className="hover:text-orange-400 transition-colors">Features</a></li>
+              <li><a href="#features" className="hover:text-orange-400 transition-colors">Features</a></li>
               <li><a href="#" className="hover:text-orange-400 transition-colors">Pricing (It's Free)</a></li>
-              <li><a href="#" className="hover:text-orange-400 transition-colors">API</a></li>
+              <li><a href="https://aistudio.google.com/" className="hover:text-orange-400 transition-colors">API</a></li>
             </ul>
           </div>
 
@@ -33,7 +33,13 @@ const Footer: React.FC = () => {
         
         <div className="border-t border-gray-900 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-gray-600 text-sm">
-            © {new Date().getFullYear()} Resume Roaster. Made with 💔 and AI.
+            © {new Date().getFullYear()} Resume Roaster. Made with 💔 by 
+            <span>
+              <a href="https://www.linkedin.com/in/omsai-desai" className="hover:text-orange-400 transition-colors">
+                Omsai Desai
+              </a>
+            </span>
+           
           </p>
           <div className="flex gap-4">
             <span className="w-2 h-2 rounded-full bg-green-500"></span>
