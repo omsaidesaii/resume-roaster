@@ -50,7 +50,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#111] bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-gray-900 via-[#111] to-[#000] text-white flex flex-col font-sans">
+    <div className="min-h-screen bg-[#111] bg-[radial-gradient(ellipse_at_top,_#111827_0%,_#111111_50%,_#000000_100%)] text-white flex flex-col font-sans">
       
       <Navbar />
 
