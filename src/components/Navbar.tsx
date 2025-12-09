@@ -37,9 +37,7 @@ const Navbar: React.FC = () => {
         </div>
 
         <div className="flex items-center gap-4">
-          <a href="https://github.com/omsaidesaii" className="text-gray-400 hover:text-white transition-colors">
-            <Github className="w-5 h-5" />
-          </a>
+         
           <a href="https://x.com/omsaidesai" className="text-gray-400 hover:text-white transition-colors">
             <Twitter className="w-5 h-5" />
           </a>
